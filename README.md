@@ -18,7 +18,7 @@ library(tidyverse)
 library(oro.dicom)
 ```
 
-Remeber to re-set the path to this repo *INFO550CourseRepo*:
+Depending which directory you pull *INFO550CourseRepo*, to run this R Markdown file, remeber to re-set the path to this repo *INFO550CourseRepo* in the R markdown file at Line 28:
 
 ```r
 data_path <- c("~/Dropbox/Emory Courses/Fall 2021/INFO 550/github_repo/INFO550CourseRepo/")
@@ -34,5 +34,7 @@ Rscript -e "rmarkdown::render('Sep22_2021.Rmd')"
 
 This will create a file called `Sep22_2021.html` output in your directory that contains the results.
 
-
+## Data
+The data used in this project is provided by Kaggle competition "[RSNA-MICCAI Brain Tumor
+Radiogenomic Classification](https://www.kaggle.com/c/rsna-miccai-brain-tumor-radiogenomic-classification/overview)".
 
